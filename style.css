@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    outline: none;
+    font-family: "Glory", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #0093E9 linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    padding: 12px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: 0px 0px 2px 2px #32323232;
+    background-color: #fbfbfb;
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.app-container .app-title {
+    font-size: 28px;
+    color: #323232;
+    text-align: center;
+}
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btns-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 6px;
+}
+
+.formatting-btns {
+    padding: 6px 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 1px solid #32323232;
+    color: #323232;
+    background-color: #fbfbfb;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.formatting-btns:hover {
+    color: #000;
+    border-color: #323232;
+}
+
+.formatting-btns:active {
+    color: #fbfbfb;
+    background-color: #323232;
+}
+
+.custom-textarea {
+    border: 1px solid #32323232;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 6px;
+    height: 280px;
+    overflow-y: auto;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.h1 {
+    font-size: 32px;
+    line-height: 36px;
+    margin: 12px 0 6px 0;
+    display: block;
+}
+
+.h2 {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 10px 0 5px 0;
+    display: block;
+}
+
+.h3 {
+    font-size: 28px;
+    line-height: 32px;
+    margin: 8px 0 4px 0;
+    display: block;
+}
+
+.h4 {
+    font-size: 26px;
+    line-height: 30px;
+    margin: 6px 0 3px 0;
+    display: block;
+}
+
+.h5 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 4px 0 2px 0;
+    display: block;
+}
+
+.h6 {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 2px 0 1px 0;
+    display: block;
+}
